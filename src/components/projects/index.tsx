@@ -5,13 +5,13 @@ import ProjectItem from './project-item'
 
 const projects = [
     {
-        "image": "/images/projects/jornada-inclusao-digital.jpg",
+        "image": "/images/jornada-inclusao-digital.jpg",
         "name": "Jornada para Inclusão Digital",
         "description": "Site desenvolvido para a Jornada da Inclusão Digital, evento organizado pela Faculdade de Computação da Universidade Federal do Pará (UFPA).",
         "href": "https://jidcastanhal.com.br",
     },
     {
-        "image": "/images/projects/camile-medeiros.jpg",
+        "image": "/images/imagem_facomp.png",
         "name": "Faculdade de Computação",
         "description": "Site desenvolvido para a Faculdade de Computação - UFPA Castanhal para expor informações sobre sua estrutura, documentos, notícias.",
         "href": "https://facompcastanhal.ufpa.br",

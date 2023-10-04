@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "../section";
 import Button from "../button";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
@@ -15,7 +16,13 @@ export default function HeroSection() {
         </p>
       </div>
       <Button>Entrar em contato</Button>
-      <div>
+      <div className="flex space-x-8">
+      <Image src="/images/image_web.svg"  alt="Imagem" 
+                        width={808} 
+                        height={513}/>
+        <Image src="/images/image_mobile.svg"  alt="Imagem" 
+                        width={268} 
+                        height={513}/>
         {/* <Image 
                         src="imagem.svg" 
                         alt="Imagem" 

@@ -1,5 +1,3 @@
-import Section from "../section";
-
 export default function Footer() {
   return (
     <footer className="bg-[#151934] w-full text-center py-6">
