@@ -16,13 +16,19 @@ export default function HeroSection() {
         </p>
       </div>
       <Button>Entrar em contato</Button>
-      <div className="flex space-x-8">
-      <Image src="/images/image_web.svg"  alt="Imagem" 
-                        width={808} 
-                        height={513}/>
-        <Image src="/images/image_mobile.svg"  alt="Imagem" 
-                        width={268} 
-                        height={513}/>
+      <div className="flex flex-wrap gap-8  justify-center">
+        <Image
+          src="/images/image_web.svg"
+          alt="Imagem"
+          width={808}
+          height={513}
+        />
+        <Image
+          src="/images/image_mobile.svg"
+          alt="Imagem"
+          width={268}
+          height={513}
+        />
         {/* <Image 
                         src="imagem.svg" 
                         alt="Imagem" 
