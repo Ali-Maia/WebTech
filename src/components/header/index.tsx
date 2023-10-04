@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 // import { Menu } from "lucide-react";
 import Button from "../button";
 import Link from "next/link";
@@ -17,7 +18,7 @@ export default function Header() {
       <header className="h-24 max-w-7xl px-6 mx-auto">
         <nav className="flex justify-between items-center py-2 w-full">
           <div>
-            <span className="text-3xl font-black">WebTech</span>
+            <Image src="/images/Webtech.svg" alt="Logo WebTech" width={130} height={40}/>
           </div>
           <div>
             <ul className="hidden md:flex gap-8 font-medium">
