@@ -1,11 +1,17 @@
 import AboutUs from "@/components/about-us";
+import ContactForm from "@/components/contact-form";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <HeroSection />
       <AboutUs />
+      <ContactForm />
+      <Footer />
     </>
-  )
+  );
 }
