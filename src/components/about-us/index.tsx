@@ -8,7 +8,7 @@ export default function AboutUs() {
   return (
     <Section>
       <Heading
-        title="Sobre Nós"
+        title="Serviços"
         subtitle="Saiba mais sobre quem somos e quais são os nossos serviços"
       />
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">

@@ -13,16 +13,16 @@ export default function ContactForm() {
         <form className="w-full flex flex-col gap-4">
           <input
             placeholder="Nome"
-            className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
+            className="w-full h-14 bg-[#151934] rounded-xl text-white placeholder:text-white p-4 focus:outline-none focus:ring-2 ring-[#7214FF]"
           />
           <input
             placeholder="E-mail"
             type="email"
-            className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
+            className="w-full h-14 bg-[#151934] rounded-xl text-white placeholder:text-white p-4 focus:outline-none focus:ring-2 ring-[#7214FF]"
           />
           <textarea
             placeholder="Mensagem"
-            className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600"
+            className="resize-none w-full h-[138px] bg-[#151934] rounded-xl text-white placeholder:text-white p-4 focus:outline-none focus:ring-2 ring-[#7214FF]"
             maxLength={500}
           />
 
