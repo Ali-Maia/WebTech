@@ -26,10 +26,7 @@ export default function Header() {
                 <Link href="#servicos">Serviços</Link>
               </li>
               <li className="hover:text-[#2e3e73] transition">
-                <Link href="#horarios">Horários</Link>
-              </li>
-              <li className="hover:text-[#2e3e73] transition">
-                <Link href="#avaliacoes">Avaliações</Link>
+                <Link href="#horarios">Projetos</Link>
               </li>
             </ul>
           </div>

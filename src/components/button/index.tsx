@@ -4,11 +4,11 @@ import { VariantProps, cva } from 'class-variance-authority'
 interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement>, VariantProps<typeof ButtonVariants> {}
 
 const ButtonVariants = cva(
-    "flex items-center px-6 py-4 gap-2 justify-center font-semibold rounded-full", 
+    "flex items-center px-6 py-4 gap-2 justify-center font-semibold rounded-full transition-all", 
     {
         variants: {
             variant: {
-                default: "bg-[#7214FF] text-white",
+                default: "bg-[#7214FF] hover:bg-[#3b0764] text-white",
                 outline: "bg-transparent border-2 border-[#7214FF] hover:border-[#7214FF] hover:text-white",
             }
         },
