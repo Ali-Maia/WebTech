@@ -22,19 +22,15 @@ export default function HeroSection() {
           alt="Imagem"
           width={808}
           height={513}
+          priority
         />
         <Image
           src="/images/image_mobile.svg"
           alt="Imagem"
           width={268}
           height={513}
+          priority
         />
-        {/* <Image 
-                        src="imagem.svg" 
-                        alt="Imagem" 
-                        width={806} 
-                        height={473}
-                    /> */}
       </div>
     </Section>
   );
